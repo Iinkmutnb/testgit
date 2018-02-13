@@ -6,7 +6,7 @@ const router = new Router()
 const sendUser =  require('./api/sendUser.js')
 const name =  require('./api/name.js')
 App.use(Bodyparser())
-
+//s
 router.use('/s',sendUser.routes())
 router.use('/s',name.routes())
 
